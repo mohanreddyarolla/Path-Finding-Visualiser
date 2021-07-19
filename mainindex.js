@@ -3,6 +3,7 @@ let container2 = document.getElementById('container2');
 let container3 = document.getElementById('container3');
 
 started = 0;
+s = 0
 obstacle = 0;
 let ele = new Array(1000);//stores the id's(number) of each box in the grid
 let blocks = []// stores the bloked box numbers
