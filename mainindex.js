@@ -306,8 +306,10 @@ function startfinding() {
     }
 
 
-
-    bfs(start.parentNode.id, end.parentNode.id)
+    if(1){
+        bfs(start.parentNode.id, end.parentNode.id)
+    }
+    
     
 }
 
